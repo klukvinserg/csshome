@@ -1,0 +1,35 @@
+/* * {
+    background-color: green
+} */
+
+:root {
+    font-size: 8px;
+}
+
+h1 {
+    color: royalblue;
+}
+
+p {
+    color: red;
+}
+
+#chosen {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+div p {
+    border: 1px solid black;
+}
+
+div p:hover {
+    transform: rotate(180deg);
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
